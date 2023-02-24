@@ -6,44 +6,37 @@ import '../vendor.css';
 
 function Intro() {
     return <Fragment>
-        	{/* <!-- intro section
-   ================================================== --> */}
-   <section id="intro">   
+    {/* <!-- intro section================================================== --> */}
+    <section id="intro">   
+        <div className="intro-content">
+            <div className="row">
 
-<div className="intro-overlay"></div>	
+                <div className="col-twelve">
 
-<div className="intro-content">
-    <div className="row">
+                    <h5>Hello,</h5>
+                    <h1>I'm Arden Choi.</h1>
 
-        <div className="col-twelve">
+                    <p className="intro-position">
+                        <span>Computer Science student @ UBC</span>
+                        <span>Photo by SpaceX</span> 
+                    </p>
 
-            <h5>Hello,</h5>
-            <h1>I'm Arden Choi.</h1>
+                    <a className="button stroke smoothscroll" href="#about" title="">More About Me</a>
 
-            <p className="intro-position">
-                <span>Computer Science student @ UBC</span>
-                <span>Photo by SpaceX</span> 
-            </p>
+                </div>  
+                
+            </div>   		 		
+        </div> 
+        {/* <!-- /intro-content -->  */}
 
-            <a className="button stroke smoothscroll" href="#about" title="">More About Me</a>
-
-        </div>  
-        
-    </div>   		 		
-</div> 
-{/* <!-- /intro-content -->  */}
-
-<ul className="intro-social">        
-  <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-  <li><a href="#"><i className="fa fa-behance"></i></a></li>
-  <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-  <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
-  <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-</ul> 
-{/* <!-- /intro-social -->      	 */}
-
-</section> 
-{/* <!-- /intro --> */}
+        <ul className="intro-social">        
+            <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i className="fa fa-github"></i></a></li>
+            <li><a href="#"><i className="fa fa-envelope"></i></a></li>
+        </ul> 
+        {/* <!-- /intro-social -->      	 */}
+    </section> 
+    {/* <!-- /intro --> */}
     </Fragment>
 }
 
