@@ -4,12 +4,11 @@
   "private": true,
   "description": "arden-choi",
   "author": "Arden Choi",
-  "homepage": "https://ardenysc.github.io",
   "keywords": [
     "gatsby"
   ],
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b gh-pages",
+    "deploy": "gatsby build && gh-pages -d public",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
