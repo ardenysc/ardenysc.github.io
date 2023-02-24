@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `Arden Choi`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://ardenysc.github.io/`,
   },
   plugins: [],
 }
