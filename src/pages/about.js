@@ -3,6 +3,7 @@ import '../base.css';
 import '../main.css';
 import '../fonts.css';
 import '../vendor.css';
+// import '../profile-pic.jpg';
 
 function About() {
     return <Fragment>

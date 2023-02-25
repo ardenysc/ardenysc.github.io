@@ -1,35 +1,24 @@
 import React, { Fragment } from 'react';
+import { useState } from 'react';
 import '../base.css';
 import '../main.css';
 import '../fonts.css';
 import '../vendor.css';
-import $ from 'jquery';
 
-function Header() {
-		/*-----------------------------------------------------*/
-  	/* Navigation Menu
-   ------------------------------------------------------ */  
-    var toggleButton = $('.menu-toggle');
-    var nav = $('.main-navigation');
 
-   // toggle button
-    toggleButton.on('click', function(e) {
+function Headercopy() {
+	const [toggleClicked, setToggleClicked] = useState(false);
+	const [itemClicked, setItemClicked] = useState(false);
 
-		e.preventDefault();
-		toggleButton.toggleClass('is-clicked');
-		nav.slideToggle();
-
-	});
-
-   // nav items
-  	nav.find('li a').on("click", function() {   
-
-		// update the toggle button 		
-		toggleButton.toggleClass('is-clicked'); 
-		// fadeout the navigation panel
-		nav.fadeOut();   		
-   	     
-  	});
+	let inputStyle = {
+		display: "none"
+	  };
+	if(toggleClicked == true && itemClicked == false) {
+		inputStyle = {
+		  display:"block"
+		}
+	}
+	
 
     return <Fragment>
         
@@ -39,11 +28,11 @@ function Header() {
    	<div className="row">
 
    		<div className="top-bar">
-   			<a className="menu-toggle" href="#"><span>Menu</span></a>
+   			<a className={toggleClicked ? "menu-toggle is-clicked" : "menu-toggle"} onClick={() => {setToggleClicked(!toggleClicked); setItemClicked(false)}}><span>Menu</span></a>
 
 		   	<nav id="main-nav-wrap">
-				<ul className="main-navigation">
-					<li className="current"><a className="smoothscroll"  href="#intro" title="">Home</a></li>
+				<ul className="main-navigation" style={inputStyle} onClick={() => {setItemClicked(!itemClicked); setToggleClicked(!toggleClicked)}}>
+					<li><a className="smoothscroll"  href="#intro" title="">Home</a></li>
 					<li><a className="smoothscroll"  href="#about" title="">About</a></li>
 					<li><a className="smoothscroll"  href="#resume" title="">Resume</a></li>
 					<li><a className="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>					
@@ -59,4 +48,4 @@ function Header() {
    </Fragment>
 }
 
-export default Header;
+export default Headercopy;

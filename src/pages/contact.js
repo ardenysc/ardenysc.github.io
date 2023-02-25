@@ -3,6 +3,61 @@ import '../base.css';
 import '../main.css';
 import '../fonts.css';
 import '../vendor.css';
+import $ from 'jquery';
+
+
+  	/*---------------------------------------------------- */
+	/*	contact form
+	------------------------------------------------------ */
+
+	/* local validation */
+	// $('#contactForm').validate({
+
+	// 	/* submit via ajax */
+	// 	submitHandler: function(form) {
+
+	// 		var sLoader = $('#submit-loader');
+
+	// 		$.ajax({      	
+
+	// 	      type: "POST",
+	// 	      url: "inc/sendEmail.php",
+	// 	      data: $(form).serialize(),
+	// 	      beforeSend: function() { 
+
+	// 	      	sLoader.fadeIn(); 
+
+	// 	      },
+	// 	      success: function(msg) {
+
+	//             // Message was sent
+	//             if (msg == 'OK') {
+	//             	sLoader.fadeOut(); 
+	//                $('#message-warning').hide();
+	//                $('#contactForm').fadeOut();
+	//                $('#message-success').fadeIn();   
+	//             }
+	//             // There was an error
+	//             else {
+	//             	sLoader.fadeOut(); 
+	//                $('#message-warning').html(msg);
+	// 	            $('#message-warning').fadeIn();
+	//             }
+
+	// 	      },
+	// 	      error: function() {
+
+	// 	      	sLoader.fadeOut(); 
+	// 	      	$('#message-warning').html("Something went wrong. Please try again.");
+	// 	         $('#message-warning').fadeIn();
+
+	// 	      }
+
+	//       });     		
+  	// 	}
+
+	// });
+
 
 function Contact() {
     return <Fragment>
@@ -109,6 +164,9 @@ function Contact() {
 
         </section> 
     {/* <!-- /contact --> */}
+    {/* <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script> */}
     </Fragment>
 }
 

@@ -48,6 +48,7 @@
  */
 html {
 	font-size: 10px;
+	scroll-behavior: smooth;
 }
 
 @media only screen and (max-width:1024px) {
@@ -1095,7 +1096,7 @@ header .row {
 }
 header .top-bar {
 	display: block;
-	background: #000000;
+	/* background: #000000; */
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
@@ -1135,6 +1136,7 @@ header .logo a {
 	margin-top: 13px;
 	display: block;
 	position: relative;
+	cursor: pointer;
 }
 .menu-toggle span {
 	display: block;
