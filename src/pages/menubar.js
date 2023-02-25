@@ -35,7 +35,7 @@ function Menubar() {
 					<li><a className="smoothscroll"  href="#intro" title="">Home</a></li>
 					<li><a className="smoothscroll"  href="#about" title="">About</a></li>
 					<li><a className="smoothscroll"  href="#resume" title="">Resume</a></li>
-					<li><a className="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>					
+					<li><a className="smoothscroll"  href="#projects" title="">Projects</a></li>					
 					<li><a className="smoothscroll"  href="#contact" title="">Contact</a></li>				
 				</ul>
 			</nav>    		
