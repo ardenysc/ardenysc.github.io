@@ -3,6 +3,9 @@ import '../base.css';
 import '../main.css';
 import '../fonts.css';
 import '../vendor.css';
+import liberty from '../images/portfolio/liberty.jpg';
+import beetle from '../images/portfolio/beetle.jpg';
+import clouds from '../images/portfolio/clouds.jpg';
 
 function Portfolio() {
     return <Fragment>
@@ -31,7 +34,7 @@ function Portfolio() {
 
          <div className="bgrid folio-item">
            <div className="item-wrap">
-               <img src="images/portfolio/liberty.jpg" alt="Liberty"/>
+               <img src={liberty} alt="Liberty"/>
               <a href="#modal-01" className="overlay">	                  	           
                  <div className="folio-item-table">
                      <div className="folio-item-cell">
@@ -48,11 +51,11 @@ function Portfolio() {
 
             <div className="bgrid folio-item">
            <div className="item-wrap">
-               <img src="images/portfolio/shutterbug.jpg" alt="Shutterbug"/>
+               <img src={beetle} alt="Beetle"/>
                <a href="#modal-02" className="overlay">              		                  
                  <div className="folio-item-table">
                      <div className="folio-item-cell">
-                         <h3 className="folio-title">Shutterbug</h3>	     					    
+                         <h3 className="folio-title">Beetle</h3>	     					    
                                  <span className="folio-types">
                                       Web Design
                                </span>		     		
@@ -65,7 +68,7 @@ function Portfolio() {
 
         <div className="bgrid folio-item">
            <div className="item-wrap">
-               <img src="images/portfolio/clouds.jpg"alt="Clouds"/>
+               <img src={clouds} alt="Clouds"/>
               <a href="#modal-03" className="overlay">             		                  
                  <div className="folio-item-table">
                      <div className="folio-item-cell">
@@ -80,56 +83,6 @@ function Portfolio() {
             </div> 
             {/* <!-- /folio-item --> */}
 
-        <div className="bgrid folio-item">
-           <div className="item-wrap">
-               <img src="images/portfolio/beetle.jpg" alt="Beetle"/>
-              <a href="#modal-04" className="overlay">                  	                 
-                 <div className="folio-item-table">
-                     <div className="folio-item-cell">
-                         <h3 className="folio-title">Beetle</h3>	     					    
-                                 <span className="folio-types">
-                                      Branding
-                               </span>		     		
-                            </div>  	                      	
-                 </div>                    
-              </a>
-           </div>
-            </div> 
-            {/* <!-- /folio-item -->      */}
-
-            <div className="bgrid folio-item">
-           <div className="item-wrap">
-               <img src="images/portfolio/lighthouse.jpg" alt="Lighthouse"/>
-              <a href="#modal-05" className="overlay">             		                  
-                 <div className="folio-item-table">
-                     <div className="folio-item-cell">
-                         <h3 className="folio-title">Lighthouse</h3>	     					    
-                                 <span className="folio-types">
-                                      Web Development
-                               </span>		     		
-                            </div> 	                      	
-                 </div>                    
-              </a>
-           </div>
-            </div> 
-            {/* <!-- /folio-item --> */}
-
-        <div className="bgrid folio-item">
-           <div className="item-wrap">
-               <img src="images/portfolio/salad.jpg" alt="Salad"/>
-              <a href="#modal-06" className="overlay">
-                 <div className="folio-item-table">
-                     <div className="folio-item-cell">
-                         <h3 className="folio-title">Salad</h3>	     					    
-                                 <span className="folio-types">
-                                      Branding
-                               </span>		     		
-                            </div>	                      	
-                 </div>                    
-              </a>
-           </div>
-            </div> 
-            {/* <!-- /folio-item -->    */}
 
         {/* <!-- modal popups - begin
         ============================================================= --> */}

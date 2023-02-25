@@ -3,6 +3,7 @@ import '../base.css';
 import '../main.css';
 import '../fonts.css';
 import '../vendor.css';
+import profile from '../images/profile-pic.jpg';
 // import '../profile-pic.jpg';
 
 function About() {
@@ -18,7 +19,7 @@ function About() {
 
                 <div className="intro-info">
 
-                    <img src="../images/profile-pic.jpg" alt="Profile Picture"/>
+                    <img src={profile} alt="Profile Picture"/>
 
                     <p className="lead">Lorem ipsum Exercitation culpa qui dolor consequat exercitation fugiat laborum ex ea eiusmod ad do aliqua occaecat nisi ad irure sunt id pariatur Duis laboris amet exercitation veniam labore consectetur ea id quis eiusmod.</p>
                 </div>   			
