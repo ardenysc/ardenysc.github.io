@@ -2124,6 +2124,8 @@ header .logo a {
 	padding-bottom: 12rem;
 	color: white;
 	position: top;
+	display: flex;  
+	flex-wrap: wrap;
 }
 #services .overlay {
 	position: absolute;

@@ -20,7 +20,7 @@ function Cards() {
     return <Fragment>
         {/* <!-- Portfolio Section
    ================================================== --> */}
-	<section id="resume" className="grey-section">
+	<section id="portfolio" className="grey-section">
 
 <div className="row section-intro">
    <div className="col-twelve">
