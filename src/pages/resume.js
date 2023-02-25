@@ -8,7 +8,7 @@ function Resume() {
     return <Fragment>
 
    {/* <!-- resume Section================================================== --> */}
-	<section id="resume" className="grey-section">
+	<section id="resume" className="white-section">
 
         <div className="row section-intro">
             <div className="col-twelve">

@@ -12,7 +12,6 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Grid from '@mui/material/Grid';
-import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
 
@@ -21,12 +20,12 @@ function Cards() {
     return <Fragment>
         {/* <!-- Portfolio Section
    ================================================== --> */}
-	<section id="portfolio">
+	<section id="resume" className="grey-section">
 
 <div className="row section-intro">
    <div className="col-twelve">
 
-       <h5>Portfolio</h5>
+       <h5>Projects</h5>
        <h1>Check Out Some of My Works.</h1>
 
        <p className="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
@@ -40,7 +39,7 @@ function Cards() {
    <div className="col-twelve">
       <div className="row">
       <Grid container spacing={3}  justifyContent="center">
-         <Grid item xs={6} md={4} sx={{minWidth: '255px'}}>
+         <Grid item xs={6} md={4} sx={{minWidth: '280px'}}>
             <div className='folio-item'>
                <Card sx={{ maxWidth: 345}} variant="outlined">
                   <CardMedia
@@ -59,13 +58,13 @@ function Cards() {
                   </CardContent>
                   <CardActions>
                      <button className="button noborder">
-                        <i className="fa fa-chevron-right"></i> Find out more
+                        <i className="fa fa-chevron-right"></i> More on github
                      </button>
                   </CardActions>
                </Card>
             </div>
          </Grid>
-         <Grid item xs={6} md={4} sx={{minWidth: '255px'}}>
+         <Grid item xs={6} md={4} sx={{minWidth: '280px'}}>
             <div className='folio-item'>
                <Card sx={{ maxWidth: 345 }} variant="outlined">
                   <CardMedia
@@ -84,13 +83,13 @@ function Cards() {
                   </CardContent>
                   <CardActions>
                      <button className="button noborder">
-                        <i className="fa fa-chevron-right"></i> Find out more
+                        <i className="fa fa-chevron-right"></i> More on github
                      </button>
                   </CardActions>
                </Card>
             </div>
          </Grid>
-         <Grid item xs={6} md={4} sx={{minWidth: '255px'}}>
+         <Grid item xs={6} md={4} sx={{minWidth: '280px'}}>
             <div className='folio-item'>
                <Card sx={{ maxWidth: 345 }} variant="outlined">
                   <CardMedia
@@ -109,7 +108,7 @@ function Cards() {
                   </CardContent>
                   <CardActions>
                      <button className="button noborder">
-                        <i className="fa fa-chevron-right"></i> Find out more
+                        <i className="fa fa-chevron-right"></i> More on github
                      </button>
                   </CardActions>
                </Card>

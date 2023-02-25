@@ -1036,6 +1036,9 @@ button.noborder:hover, .button.snoborder:hover {
  *
  * ------------------------------------------------------------------- 
  */
+.white-section {
+	background: #FFFFFF;
+}
 .grey-section {
 	background: #ebebeb;
 }
@@ -2120,7 +2123,7 @@ header .logo a {
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 	color: white;
-	position: relative;
+	position: top;
 }
 #services .overlay {
 	position: absolute;
