@@ -69,7 +69,7 @@ function Portfolio() {
         <div className="bgrid folio-item">
            <div className="item-wrap">
                <img src={clouds} alt="Clouds"/>
-              <a href="#modal-03" className="overlay">             		                  
+              <a href="#modal-04" className="overlay">             		                  
                  <div className="folio-item-table">
                      <div className="folio-item-cell">
                          <h3 className="folio-title">Clouds</h3>	     					    
@@ -149,7 +149,7 @@ function Portfolio() {
            </div> 
            {/* <!-- /modal-03 --> */}
 
-           <div id="modal-04" className="popup-modal slider mfp-hide">	
+           <div id="modal-03" className="popup-modal slider mfp-hide">	
 
                  <div className="media">
                      <img src="images/portfolio/modals/m-beetle.jpg" alt="" />

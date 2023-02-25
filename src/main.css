@@ -745,6 +745,22 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	padding: 0;
 }
 
+button.noborder, .button.noborder {
+	background: transparent !important;
+	/* border: 3px solid #313131; */
+	line-height: 4.8rem;
+}
+button.noborder.medium, .button.noborder.medium {
+	line-height: 5.1rem !important;
+}
+button.noborder.large, .button.noborder.large {
+	line-height: 5.4rem !important;
+}
+button.noborder:hover, .button.snoborder:hover {
+	/* border: 3px solid #FF0077; */
+	color: #FF0077;
+}
+
 
 /** 
  * ===================================================================
