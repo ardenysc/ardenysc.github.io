@@ -12,10 +12,12 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Grid from '@mui/material/Grid';
+import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
 
 function Cards() {
+
     return <Fragment>
         {/* <!-- Portfolio Section
    ================================================== --> */}
@@ -37,8 +39,8 @@ function Cards() {
 
    <div className="col-twelve">
       <div className="row">
-      <Grid container spacing={3} justify="center">
-         <Grid item xs={6} md={4} sx={{minWidth: '280px'}}>
+      <Grid container spacing={3}  justifyContent="center">
+         <Grid item xs={6} md={4} sx={{minWidth: '255px'}}>
             <div className='folio-item'>
                <Card sx={{ maxWidth: 345}} variant="outlined">
                   <CardMedia
@@ -63,7 +65,7 @@ function Cards() {
                </Card>
             </div>
          </Grid>
-         <Grid item xs={6} md={4} sx={{minWidth: '280px'}}>
+         <Grid item xs={6} md={4} sx={{minWidth: '255px'}}>
             <div className='folio-item'>
                <Card sx={{ maxWidth: 345 }} variant="outlined">
                   <CardMedia
@@ -88,32 +90,7 @@ function Cards() {
                </Card>
             </div>
          </Grid>
-         <Grid item xs={6} md={4} sx={{minWidth: '280px'}}>
-            <div className='folio-item'>
-               <Card sx={{ maxWidth: 345 }} variant="outlined">
-                  <CardMedia
-                     sx={{ height: 180 }}
-                     image={beetle}
-                     title="green iguana"
-                  />
-                  <CardContent>
-                     <Typography gutterBottom variant="h4" component="div">
-                        Lizard
-                     </Typography>
-                     <Typography variant="body" color="text.secondary">
-                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                        species, ranging across all continents except Antarctica
-                     </Typography>
-                  </CardContent>
-                  <CardActions>
-                     <button className="button noborder">
-                        <i className="fa fa-chevron-right"></i> Find out more
-                     </button>
-                  </CardActions>
-               </Card>
-            </div>
-         </Grid>
-         <Grid item xs={6} md={4} sx={{minWidth: '280px'}}>
+         <Grid item xs={6} md={4} sx={{minWidth: '255px'}}>
             <div className='folio-item'>
                <Card sx={{ maxWidth: 345 }} variant="outlined">
                   <CardMedia
