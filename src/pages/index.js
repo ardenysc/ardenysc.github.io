@@ -1,7 +1,4 @@
 import * as React from "react"
-// import { Link } from "gatsby"
-// import { Helmet } from "react-helmet"
-// import { withPrefix } from "gatsby"
 import About from "./about"
 import Contact from "./contact"
 import Footer from "./footer"
