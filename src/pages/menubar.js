@@ -13,7 +13,7 @@ function Menubar() {
 	let inputStyle = {
 		display: "none"
 	  };
-	if(toggleClicked == true && itemClicked == false) {
+	if(toggleClicked === true && itemClicked === false) {
 		inputStyle = {
 		  display:"block"
 		}
