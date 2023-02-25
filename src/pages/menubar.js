@@ -6,7 +6,7 @@ import '../fonts.css';
 import '../vendor.css';
 
 
-function Headercopy() {
+function Menubar() {
 	const [toggleClicked, setToggleClicked] = useState(false);
 	const [itemClicked, setItemClicked] = useState(false);
 
@@ -48,4 +48,4 @@ function Headercopy() {
    </Fragment>
 }
 
-export default Headercopy;
+export default Menubar;
