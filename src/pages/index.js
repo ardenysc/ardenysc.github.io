@@ -1,10 +1,10 @@
 import * as React from "react"
 import About from "./about"
 import Contact from "./contact"
+import Contactcopy from "./contactcopy"
 import Footer from "./footer"
 import Intro from "./intro"
 import Menubar from "./menubar"
-// import Navbar from "./navbar"
 import Portfolio from "./portfolio"
 import Resume from "./resume"
 
@@ -18,7 +18,8 @@ const IndexPage = () => {
       <About />
       <Resume />
       <Portfolio />
-      <Contact />
+      <Contactcopy />
+      {/* <Contact /> */}
       <Footer />
       {/* <Layout /> */}
       {/* <!-- Java Script================================================== -->  */}

@@ -22,8 +22,9 @@ function Footer() {
 
 			<div className="col-six tab-full">
 				<div className="copyright">
-						<span>© Copyright Kards 2016.</span> 
-						<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>         	
+					<span>© Copyright Kards 2016.</span> 
+					<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span> 
+					<span>Editted by Arden Choi</span>        	
 				</div>		                  
 			</div>
 
