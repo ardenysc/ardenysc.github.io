@@ -13,12 +13,12 @@ function Intro() {
 
                 <div className="col-twelve">
 
-                    <h5>Hello,</h5>
-                    <h1>I'm Arden Choi.</h1>
+                    <h5>　</h5>
+                    <h1>Arden Choi</h1>
 
                     <p className="intro-position">
                         <span>Computer Science student @ UBC</span>
-                        <span>Photo by SpaceX</span> 
+                        {/* <span>Photo by SpaceX</span>  */}
                     </p>
 
                     <a className="button stroke smoothscroll" href="#about" title="">More About Me</a>
