@@ -3,8 +3,16 @@ import '../base.css';
 import '../main.css';
 import '../fonts.css';
 import '../vendor.css';
+import Grid from '@mui/material/Grid';
 import profile from '../images/profile-pic.jpg';
-// import '../profile-pic.jpg';
+import python from 'programming-languages-logos/src/python/python.svg'
+import java from 'programming-languages-logos/src/java/java.svg'
+import javascript from 'programming-languages-logos/src/javascript/javascript.svg'
+import html from 'programming-languages-logos/src/html/html.svg'
+import icss from 'programming-languages-logos/src/css/css.svg'
+// import cpp from 'programming-languages-logos/src/cpp/cpp.svg'
+import ireact from '../images/react.svg'
+
 
 function About() {
     return <Fragment>
@@ -59,26 +67,44 @@ function About() {
                 <h3>Skills</h3>
                 <p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>
 
-                <ul className="skill-bars">
-                    <li>
-                        <div className="progress percent90"><span>90%</span></div>
-                        <strong>Python</strong>
-                    </li>
-                    <li>
-                        <div className="progress percent85"><span>85%</span></div>
-                        <strong>Java</strong>
-                    </li>
-                    <li>
-                        <div className="progress percent70"><span>70%</span></div>
-                        <strong>JavaScript</strong>
-                    </li>
-                    <li>
-                        <div className="progress percent95"><span>95%</span></div>
-                        <strong>HTML/CSS</strong>
-                    </li>
-
-                </ul> 
-                {/* <!-- /skill-bars -->		 */}
+                <Grid container spacing={2}>
+                    <Grid item>
+                        <div class="chip">
+                            <img src={python} alt="python"/>
+                            python
+                        </div>
+                    </Grid>
+                    <Grid item>
+                        <div class="chip">
+                            <img src={java} alt="java"/>
+                            java
+                        </div>
+                    </Grid>
+                    <Grid item>
+                        <div class="chip">
+                            <img src={javascript} alt="java"/>
+                            javascript
+                        </div>
+                    </Grid>
+                    <Grid item>
+                        <div class="chip">
+                            <img src={html} alt="Person" width="96" height="96"/>
+                            html
+                        </div>
+                    </Grid>
+                    <Grid item>
+                        <div class="chip">
+                            <img src={icss} alt="Person" width="96" height="96"/>
+                            css
+                        </div>
+                    </Grid>
+                    <Grid item>
+                        <div class="chip">
+                            <img src={ireact} alt="Person" width="96" height="96"/>
+                            react
+                        </div>
+                    </Grid>
+                </Grid>
 
             </div>
 
